@@ -1,0 +1,211 @@
+[class^="content-"] {
+    margin: auto;
+    margin-top: 2%;
+    width:80%;
+    height:100%;
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(238, 238, 238);
+    align-items: center;
+    border-radius: 10px;
+}
+[class^="contentheader-"]{
+    font-size:4vw;
+    text-align: center;
+    color: white;
+    border-radius: 20px;
+    width: 80%;
+    height: 30vh;
+    margin-bottom: 1%;
+    margin-top: 1%;
+}
+[class^="contentmap-"]{
+    border-radius: 20px;
+    width: 50%;
+    height: 45vh;
+}
+[class^="contentinfo-"]{
+    display: flex;
+    flex-direction: column;
+    border-radius: 20px;
+    width: 70%;
+    height: 80vh;
+    background-color: white;
+    margin-bottom: 1%;
+}
+[class^="contentdetail-" ]{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+h4{
+    font-size: 1vw;
+ }
+@media only screen and (max-width: 600px){
+    [class^="content-"]{
+        width:100%;
+    }
+    [class^="contentheader-"]{
+        font-size:13vw;
+        height: 20vh;
+    }
+    [class^="contentinfo-"]{
+        height: 60vh;
+    }
+    h4{
+        font-size: 3.5vw;
+    }
+    [class^="contentmap-"]{
+        width: 90%;
+        height: 30vh;
+    }
+}
+
+.ratebg{
+background-color:rgb(238,238,238);
+width: 40%;
+height:50%;
+border-radius: 10px;
+font-size: 1.2rem;
+font-family: sans-serif;
+font-weight: 500;
+text-align: center;
+}
+.green{
+    background-color: limegreen;
+    color:white;
+    width: 90%;
+    height: 100%;
+    border-radius: 10px;
+}
+.red{
+    background-color: tomato;
+    color:white;
+    width: 20%;
+    height: 100%;
+    border-radius: 10px;
+}
+.yellow{
+    background-color: rgb(255,196,12);
+    color:white;
+    width: 60%;
+    height: 100%;
+    border-radius: 10px;
+}
+
+/*Portlouis*/
+.contentheader-pl{   
+    background-image: url(/src/assets/portlouis.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.contentmap-pl{
+    background-image: url(/src/assets/map/mapportlouis.png);
+    background-position: center;
+    background-size: cover;
+}
+/*Savanne*/
+.contentheader-svn{
+    background-image: url(/src/assets/svanna.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.contentmap-svn{
+    background-image: url(/src/assets/map/mappsavanne.png);
+    background-position: center;
+    background-size: cover;
+
+}
+/*plaine will*/
+.contentheader-pw{
+    background-image: url(/src/assets/plainwil.jpg);
+    background-position: center;
+    background-size: cover;
+
+
+}
+.contentmap-pw{
+    background-image: url(/src/assets/map/mapplainwil.png);
+    background-position: center;
+    background-size: cover;
+}
+/*moka*/
+.contentheader-moka{
+    background-image: url(/src/assets/moka.jpg);
+    background-position: center;
+    background-size: cover;
+
+
+}
+.contentmap-moka{
+    background-image: url(/src/assets/map/mapmoka.png);
+    background-position: center;
+    background-size: cover;
+}
+/*Black river*/
+.contentheader-br{
+    background-image: url(/src/assets/blkriv.jpg);
+    background-position: center;
+    background-size: cover;
+
+
+}
+.contentmap-br{
+    background-image: url(/src/assets/map/mapbl.png);
+    background-position: center;
+    background-size: cover;
+}
+/*pamplemousse*/
+.contentheader-pample{
+    background-image: url(/src/assets/pample.jpg);
+    background-position: center;
+    background-size: cover;
+
+
+}
+.contentmap-pample{
+    background-image: url(/src/assets/map/mappample.png);
+    background-position: center;
+    background-size: cover;
+}
+/*flacq*/
+.contentheader-flq{
+    background-image: url(/src/assets/flacq.jpg);
+    background-position: center;
+    background-size: cover;
+
+
+}
+.contentmap-flq{
+    background-image: url(/src/assets/map/mapflq.png);
+    background-position: center;
+    background-size: cover;
+}
+/*grand port */
+.contentheader-gp{
+    background-image: url(/src/assets/grnpr.jpg);
+    background-position: center;
+    background-size: cover;
+
+
+}
+.contentmap-gp{
+    background-image: url(/src/assets/map/mapgp.png);
+    background-position: center;
+    background-size: cover;
+}
+/*riv du rem*/
+.contentheader-rdr{
+    background-image: url(/src/assets/rivremp.jpg);
+    background-position: center;
+    background-size: cover;
+
+
+}
+.contentmap-rdr{
+    background-image: url(/src/assets/map/maprivramt.png);
+    background-position: center;
+    background-size: cover;
+}
